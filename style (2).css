@@ -1,0 +1,31 @@
+body {
+	background-image: url("7015.jpg");
+	margin-right: auto;
+	margin-left: auto;
+	}
+.contain {
+	display: inline-block;
+	position: absolute;
+	top: 200px;
+	left: 450px;
+}
+#remember {
+	position: absolute;
+	left:170px;
+}
+#bottom{
+	position:absolute;
+	left:155px;
+}
+
+#logo {
+align:center;
+margin-top:10%
+}
+
+
+
+
+
+
+ 

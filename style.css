@@ -1,0 +1,53 @@
+body {
+background-image: url("7015.jpg");
+position:absolute;
+top: 150px;
+left: 450px;
+text-align: center;
+font-size: 20px;
+}
+
+#buttons {
+	display: inline;
+	width: 55px;
+	height: 50px;
+}
+
+#partner{
+position: absolute;
+left:-2px;
+}
+
+#input ul {
+	display:inline;
+	list-style-type: none;
+	float: right;
+}
+
+#p {
+	align="right";
+}
+
+
+input.groovybutton
+{
+   font-size:14px;
+   text-align:right;
+   color:#FFFFFF;
+   background-color:#0000FF;
+   border-top-style:solid;
+   border-bottom-style:solid;
+   border-left-style:solid;
+   border-right-style:solid;
+}
+
+
+@media screen and (max-width: 500px) {
+	body {
+		font-size: 100%;
+		width: 100%;
+	}
+  }
+
+
+

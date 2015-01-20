@@ -1,0 +1,73 @@
+<html>
+<link rel="stylesheet", href="style1.css">
+<script>
+		function showError(message) {
+			var errorDiv = document.getElementById('error');
+			errorDiv.innerHTML = message;
+		
+		}
+		function showPass(form) {
+		
+			var user = form.username.value;
+			var pass = form.pwd.value;
+			
+			
+			
+			
+			var user1 = "partner@seyfarthshaw.com"
+			var pass1 = "password"
+			var admin = "admin@seyfarthshaw.com"
+			var pass2 = "adminpassword"
+			
+			
+				if (user == user1 && pass == pass1) {
+					widows.location.href= "index.html";
+				
+				
+			} else {
+			
+					showError("Wrong username or password<br> Please try again")
+			}
+				
+				
+		
+		}
+
+</script>
+<head>
+<div id="logo">
+<img src="ssl.png"> 
+</head>
+<body>
+<div id="wrapper">
+<div class = "contain">
+<form id="login" align= "center">
+	
+	<br>
+	
+	
+	<div>
+	<label><font color="white">Username:</font></label>
+	<input type="text" name= "user" maxlength="30"/>
+	<br><br>
+	<label><font color="white">	Password:</font></label>
+	<input type="password" name= "pass"/><br><br>
+	<div id="remember">
+	<input type="checkbox" name= "remember username"/>
+	<label><font color="white">Remember username</font></label>
+	</div>
+	<br><br>
+	<div id="bottom">
+	
+	<input type= "button" value= "LOG-IN" onclick="showPass(form)'"/>
+	<input  width=50px,id="bottom" type= "submit" value= "FORGET PASSWORD"/>
+	<div id ="error"></div>
+	</div>
+	
+	</div>
+</form>
+</div>
+
+</body>
+
+<html>

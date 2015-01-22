@@ -2,7 +2,6 @@
 
 Team members:
 Suleiman Ali
-
 Shiann
-
+Jermene Hayes
 

@@ -1,0 +1,26 @@
+var votesService = {
+	save: function(user, vote, election) {
+		$.ajax({
+			type: "POST",
+			url: "backendserver.com/votes",
+			data: {
+				user: user,
+				vote: vote,
+				election: election
+			}).done(function(msg) {
+				window.location.hrf = "homepage.html"
+			})
+				
+			
+	}
+	}
+	
+	var mockVotesService = {
+		save: functrion(user, vote, election){
+			if(election === "testElection") {
+				return "success"
+				}else if (election === "testFailureElection") {
+				return "fail"
+				}
+		}
+	}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="style.css">
+<script>
+function ticketsub() {
+		var x = document.forms["tform"]["firstname"].value;
+		if (x == null || x == "") {
+		alert("First name must be filled out");
+		return false;
+		}
+		
+		var y = document.forms["tform"]["lastname"].value;
+		if (y == null || y == "") {
+		alert("Last name must be filled out");
+		return false;
+		}
+		var z = document.forms["tform"]["location"].value;
+		if (z == null || z == "") {
+		alert("Location must be filled out");
+		return false;
+		}
+		else{
+		window.location="index.html"
+		alert("Your ticket has been submitted")
+		;
+			
+		}
+	}
+</script>
+
+
+
+</head>
+<body>
+
+<form name="tform">
+<div>
+<label>User Id: </label>
+<input id=location type="text" name= "location" maxlength ="30" required><br /><br />
+<label>Email:  </label>
+<input id= firstname type="text" name= "firstname" maxlength ="30" required><br /> <br />
+
+</div>
+<input id="logintxt" type="submit" value="Submit" onclick="ticketsub()" />
+
+
+
+</form>
+</body>
+<footer>
+</footer>
+
+</html>
